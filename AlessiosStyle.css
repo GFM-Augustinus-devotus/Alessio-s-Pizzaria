@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header */
+
+head{
+    height: 10vh;
+}
+
+nav{
+    padding: 0.8rem 0;
+    background-color: #100f0f;
+    align-items: center;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem;
+}
+
+/* main - hero */
+
+.hero{
+    position: relative;
+    min-height: 60vh;
+}
+
+.hero__background {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    height: 150vh;
+    width: 100%;
+    z-index: -10;
+}
+
+.hero__foreground{
+    color: #fff;
+    padding-top: 15vh;
+    text-align: center;
+    z-index: -1;
+
+}
+
+.hero__title{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.hero__text{
+    margin-top: 0.5rem;
+    font-weight: 300;
+}
+
+/* Button */
+
+.Button-cta{
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #fda92a;
+    color: #000;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* Main - Menu */
+
+.subtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.menu{
+    top: -10rem;  
+    margin: 2rem 3rem;
+    padding: 0.3rem 2rem;
+}
+
+.menu__dish{
+    width: 30%;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.menu__description{
+    font-weight: 300;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background-color: #e4e0da;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menu__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.menu__title{
+    object-fit: cover;
+    margin: 0.3rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.menu__text{
+    object-fit: cover;
+    margin: 0.3rem;
+    padding: 0.2rem 0.2rem;
+    font-size: 0.85rem;
+}
+
+/* About us */
+
+.about-us{
+    height: 30vh;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(rgba(0, 0, 0, 0), #000000c8);
+}
+
+.about-us__background{
+    object-fit: cover;
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    z-index: -10;
+}
+
+.about-us__foreground{
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 0.2rem;
+    text-align: center;
+}
+
+
+#about-us__title{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-us_text{
+    color: #fff;
+    text-align: center;
+    margin: 1rem auto; 
+}
+
+/* Contact */
+
+.contact{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contact{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.contact__text{
+    margin: 1rem;
+}
+.contact__information{
+    display: inline-block;
+    margin: 0.6rem;
+    padding: 0.6rem;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+
+/* Footer */
+footer{
+    background-color: #100f0f;
+    color: #fda92a;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
